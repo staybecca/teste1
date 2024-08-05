@@ -1,0 +1,196 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.im 
+{
+  height: 60px;
+  width: 48px;
+}
+.im1
+{
+    height: 324%;
+    width: 100%; 
+    justify-content:left ;
+}
+.card
+{
+    height: 324%;
+    width: 102%; 
+}
+.card-body
+{
+    height: 324%;
+    width: 102%; 
+}
+.mcc
+{
+    height: 28px;
+  width: 30px;  
+}
+.card
+{
+    box-shadow: 2px 2px 6px rgba(113, 113, 113, 0.1); 
+}
+
+.fo
+{
+    height: 17%;
+    width: 17%;    
+}
+
+
+.fac
+{
+    height: 30px;
+    width: 30px;    
+}
+.tt
+{
+    height: 30px;
+    width: 30px;  
+}
+.iii
+{
+    height: 30px;
+    width: 30px;  
+}
+.yt
+{
+    height: 37px;
+    width: 37px;  
+    transition: filter 0.3s ease; 
+    border: solid 2px white;
+}
+
+.gg
+{
+    height: 36px;
+    width: 123px;  
+}
+.di
+{
+    height: 1px;
+    width: 1255px;   
+    color: rgb(226, 226, 226);
+    background-color: rgb(226, 226, 226);
+}
+.ia
+{
+    height: 50px;
+    width: 30px; 
+}
+
+.cabeçalho
+{
+    width: 100%;
+    height: 140px;
+    position: fixed;
+    top: -1;
+    left: 0;
+    background-color: #ffffff;
+    overflow: hidden;
+    z-index: 1000;
+    box-shadow:4px 4px 5px rgba(145, 145, 145, 0.1);
+}
+.exe
+{
+    margin-top: 60px; 
+    padding: 20px;
+}
+
+.p1
+{
+    color: black;
+}
+.separa img
+{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    mask-repeat: no-repeat;
+    top: 2%;
+}
+
+.separa h1
+{
+    display: flex;
+    position: absolute;
+    bottom: 11%;
+    left: 70%;
+    font-weight: 900;
+}
+.separa p
+{
+    display: flex;
+    position: absolute;
+    font-size: 15px;
+    bottom: 5%;
+    left: 70%;
+}
+
+.separa button
+{
+    display: flex;
+    position: absolute;
+    top: 95%;
+    left:83%;
+    width: 7%;
+    height: 6%;
+}
+
+#queijao{
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+#logofinal{
+    display: flex;
+    position: absolute;
+    height: 15%;
+    top: 655%;
+    left: 12%;
+    border-radius: 10%;
+    transform: translate(-50%, -50%);
+}
+.finalmente h1{
+    font-size: 40px;
+    font-weight: 800;
+    display: flex;
+    position: absolute;
+    top: 651%;
+    left:  34%;
+    transform: translate(-50%, -50%);
+}
+.finalmente h5{
+    font-size: 15px;
+    display: flex;
+    position: absolute;
+    top: 657%;
+    left: 39%;
+    width: 40%;
+    transform: translate(-50%, -50%);
+}
+.finalmente button{
+    display: flex;
+    position: absolute;
+    top: 2%;
+    left: 133%;
+    height: 120%;
+    width: 18%;
+    transform: translate(-50%, -50%);
+}
+ul{
+    list-style-type: none; 
+    padding: 0;
+    margin: 0; 
+    text-align: left; 
+}
+li {
+    margin-bottom: 10px;
+}
+
+.col1 {
+    display: flex;
+    gap: 20px;
+  }
