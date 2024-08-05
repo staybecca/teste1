@@ -138,54 +138,49 @@ body{
     width: 7%;
     height: 6%;
 }
-
-#queijao{
+#queijao {
     background-image: url("img/Imagem_do_WhatsApp_de_2024-08-04_à_s__11.58.56_434ab3c5-removebg-preview.png");
-  
-background-size: cover; 
-background-position: center; 
-position: relative; 
-height: 100vh; 
-
-display: flex;
-    width: 100%;
+    background-size: cover;
+    background-position: center;
     position: relative;
+    height: auto;
+    width: 100%;
 }
-#logofinal{
-    display: flex;
+
+#logofinal {
     position: absolute;
+    top: 654%;
+    left: 15%;
     height: 15%;
-    top: 655%;
-    left: 12%;
     border-radius: 10%;
     transform: translate(-50%, -50%);
 }
-.finalmente h1{
+
+.finalmente h1 {
+    position: absolute;
+    top: 650%;
+    left: 35%;
+    transform: translate(-50%, -50%);
     font-size: 40px;
     font-weight: 800;
-    display: flex;
-    position: absolute;
-    top: 651%;
-    left:  34%;
-    transform: translate(-50%, -50%);
 }
-.finalmente h5{
+
+.finalmente h5 {
+    position: absolute;
+    top: 656%;
+    left: 60%;
+    transform: translate(-50%, -50%);
     font-size: 15px;
-    display: flex;
+    width: 80%;
+}
+
+.finalmente button {
     position: absolute;
     top: 657%;
-    left: 39%;
-    width: 40%;
+    left: 88%;
     transform: translate(-50%, -50%);
-}
-.finalmente button{
-    display: flex;
-    position: absolute;
-    top: 2%;
-    left: 133%;
-    height: 120%;
-    width: 18%;
-    transform: translate(-50%, -50%);
+    height: auto;
+    width: auto;
 }
 ul{
     list-style-type: none; 
