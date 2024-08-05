@@ -140,7 +140,14 @@ body{
 }
 
 #queijao{
-    display: flex;
+    background-image: url("img/Imagem_do_WhatsApp_de_2024-08-04_à_s__11.58.56_434ab3c5-removebg-preview.png");
+  
+background-size: cover; 
+background-position: center; 
+position: relative; 
+height: 100vh; 
+
+display: flex;
     width: 100%;
     position: relative;
 }
@@ -194,3 +201,7 @@ li {
     display: flex;
     gap: 20px;
   }
+
+.container h1 {
+  position: absolute; /* Posiciona o texto sobre a imagem */top: 50%; /* Centraliza verticalmente */left: 50%; /* Centraliza horizontalmente */transform: translate(-50%, -50%); /* Ajusta o posicionamento */color: #fff; /* Cor do texto (pode ser ajustada) */font-size: 2rem; /* Tamanho da fonte (pode ser ajustado) */text-align: center; /* Centraliza o texto horizontalmente */
+}
